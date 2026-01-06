@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { HeroSection } from "@/components/trademark/HeroSection";
+import { StatsSection } from "@/components/trademark/StatsSection";
+import { TrademarkTypesSection } from "@/components/trademark/TrademarkTypesSection";
+import { FeaturesSection } from "@/components/trademark/FeaturesSection";
+import { PricingSection } from "@/components/trademark/PricingSection";
+import { ProcessSection } from "@/components/trademark/ProcessSection";
+import { BenefitsSection } from "@/components/trademark/BenefitsSection";
+import { TestimonialsSection } from "@/components/trademark/TestimonialsSection";
+import { FAQSection } from "@/components/trademark/FAQSection";
+import { CTASection } from "@/components/trademark/CTASection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background overflow-hidden">
+      <HeroSection />
+      <StatsSection />
+      <TrademarkTypesSection />
+      <FeaturesSection />
+      <PricingSection />
+      <ProcessSection />
+      <BenefitsSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <CTASection />
     </div>
   );
 };
